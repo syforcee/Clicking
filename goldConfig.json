@@ -1,0 +1,29 @@
+{
+  "currency": "Gold",
+  "equipment": [
+    {
+      "id": "shovel",
+      "name": "Shovel",
+      "incomePerClick": 1,
+      "incomePerSecond": 0,
+      "initialCost": 10,
+      "priceExponent": 1.05
+    },
+    {
+      "id": "excavator",
+      "name": "Excavator",
+      "incomePerClick": 5,
+      "incomePerSecond": 10,
+      "initialCost": 200,
+      "priceExponent": 1.1
+    },
+    {
+      "id": "mine",
+      "name": "Gold Mine",
+      "incomePerClick": 0,
+      "incomePerSecond": 100,
+      "initialCost": 1000,
+      "priceExponent": 1.1
+    }
+  ]
+}

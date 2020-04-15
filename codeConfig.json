@@ -1,0 +1,45 @@
+{
+  "currency": "Compile Code",
+  "equipment": [
+    {
+      "id": "autolab",
+      "name": "Submit to AutoLab",
+      "incomePerClick": 1,
+      "incomePerSecond": 0,
+      "initialCost": 2,
+      "priceExponent": 2.0
+    },
+    {
+      "id": "print",
+      "name": "Print Statement",
+      "incomePerClick": 5,
+      "incomePerSecond": 0,
+      "initialCost": 100,
+      "priceExponent": 1.5
+    },
+    {
+      "id": "unit_test",
+      "name": "Unit Test",
+      "incomePerClick": 10,
+      "incomePerSecond": 50,
+      "initialCost": 1000,
+      "priceExponent": 1.2
+    },
+    {
+      "id": "behavior_test",
+      "name": "Behavioral Test",
+      "incomePerClick": 10,
+      "incomePerSecond": 200,
+      "initialCost": 5000,
+      "priceExponent": 1.1
+    },
+    {
+      "id": "debugger",
+      "name": "Debugger",
+      "incomePerClick": 0,
+      "incomePerSecond": 2000,
+      "initialCost": 100000,
+      "priceExponent": 1.01
+    }
+  ]
+}
