@@ -45,7 +45,6 @@ class TestClick extends TestKit(ActorSystem("TestGame"))
       val gold = (gameState \ "currency").as[Double]
       val expectedGold = 1.0
       assert(equalDoubles(gold, expectedGold))
-
     }
   }
 }
